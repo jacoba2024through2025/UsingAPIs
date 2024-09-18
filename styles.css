@@ -1,0 +1,77 @@
+button {
+    color: silver;
+    font-family:'Courier New', Courier, monospace;
+    border: 0.24em solid red;
+    border-radius: 3%;
+    font-weight: 900;
+    background-color: rgb(50, 48, 48)
+    
+}
+.return {
+    display: none;
+}
+th {
+    color: red;
+}
+
+td {
+    padding-left: 1em;
+}
+
+.normal {
+    border-radius: 13%;
+    border: 0.2em inset red;
+    margin-left: 20em;
+}
+
+.option {
+    margin-left: 8em;
+}
+.warp{
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+
+.image-define {
+    margin-right: 8em;
+}
+.defined {
+    border-radius: 5%;
+    border: 0.2em inset red;
+    
+    
+}
+p {
+    color: red;
+    font-weight: 900;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    background-color: rgb(71, 69, 69);
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.mainlogo {
+    display: block;
+    margin: 0 auto;
+}
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.return {
+    padding: 0.5em;
+    margin-left: 2em;
+}
+
+.impclass {
+    width: 12em;
+}
+
