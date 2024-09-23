@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Using API</title>
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+  <script src="main.js"></script>
+  <body class="body-content">
+    <img src="images/DnD-Logo.png" id="dnd-logo" class="mainlogo" width="50%" />
+    <div class="buttondiv" id="content"></div>
+    <button id="back-button" class="return all-button">Back</button>
+    <div class="new" id="table-content">
+      <table class="table">
+        <tr>
+          <th class="th-content">Spells</th>
+          <th class="th-content">Monsters</th>
+        </tr>
+
+        <tr>
+          <td class="td-content">
+            <button class="spellbutton impclass all-button" id="eldritch-blast">
+              Eldritch Blast
+            </button>
+          </td>
+
+          <td class="td-content">
+            <button class="monsterbutton impclass all-button" id="imp">Imp</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-content">
+            <button class="spellbutton impclass all-button" id="disintegrate">
+              Disintegrate
+            </button>
+          </td>
+
+          <td class="td-content">
+            <button class="monsterbutton all-button" id="adult-black-dragon">
+              Adult Black Dragon
+            </button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-content">
+            <button class="spellbutton impclass all-button" id="alter-self">
+              Alter Self
+            </button>
+          </td>
+
+          <td class="td-content">
+            <button class="monsterbutton impclass all-button" id="awakened-tree">
+              Awakened Tree
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
